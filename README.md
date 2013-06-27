@@ -1,0 +1,4 @@
+iqBookClub
+==========
+
+Design patterns 
