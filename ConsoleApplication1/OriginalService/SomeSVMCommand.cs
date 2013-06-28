@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApplication1
+namespace DesignPatternsProgram
 {
     public class SomeSVMCommand : ISVMCommand
     {
@@ -9,7 +9,7 @@ namespace ConsoleApplication1
             throw new NotImplementedException();
         }
 
-        public string ChangesMade()
+        public string GetChangesMade()
         {
             throw new NotImplementedException();
         }

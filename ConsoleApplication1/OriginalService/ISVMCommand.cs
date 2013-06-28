@@ -1,9 +1,9 @@
-﻿namespace ConsoleApplication1
+﻿namespace DesignPatternsProgram
 {
     public interface ISVMCommand
     {
         void Execute();
-        string ChangesMade();
+        string GetChangesMade();
 
     }
 }
