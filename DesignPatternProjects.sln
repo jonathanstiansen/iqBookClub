@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandAdapterPatternProject", "ConsoleApplication1\CommandAdapterPatternProject.csproj", "{7239DC57-18E9-4F44-A0E1-AA838C00259B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{7239DC57-18E9-4F44-A0E1-AA838C00259B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
