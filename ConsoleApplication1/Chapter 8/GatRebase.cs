@@ -5,7 +5,9 @@ namespace ConsoleApplication1.Chapter_9.Tests
 {
     public class GatRebaseToVersionControl : IVersionControlAction
     {
-        public ArrayList Execute()
+        public string GetStringNumber { get; set; }
+
+        public virtual ArrayList Execute()
         {
             throw new NotImplementedException();
         }

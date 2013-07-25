@@ -12,11 +12,14 @@ namespace ConsoleApplication1.Chapter_9.Tests
         public GatCommitToVersionControl(string yyyymmddDate, string message)
         {
             _date = yyyymmddDate;
+            GetStringNumber = yyyymmddDate;
             _message = message;
             Completed = false;
         }
 
         public bool Completed { get; private set; }
+
+        public string GetStringNumber { get; set; }
 
         public ArrayList Execute()
         {
