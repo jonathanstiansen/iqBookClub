@@ -54,8 +54,6 @@
     <Compile Include="Chapter 8\IVersionControlAction.cs" />
     <Compile Include="Chapter 8\Tests\Stage2TestActionUsages.cs" />
     <Compile Include="Chapter 8\Tests\Stage1TestActions.cs" />
-    <Compile Include="Chapter 8\GatPull.cs" />
-    <Compile Include="Chapter 8\GatPush.cs" />
     <Compile Include="Chapter 8\VersionControl.cs" />
     <Compile Include="Chapter 9\WorkingFile.cs" />
     <Compile Include="Main\MySuperCoolVersionControl.cs" />
