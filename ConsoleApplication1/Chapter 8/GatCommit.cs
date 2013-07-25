@@ -18,11 +18,6 @@ namespace ConsoleApplication1.Chapter_9.Tests
 
         public bool Completed { get; private set; }
 
-        private string ActionName
-        {
-            get { return "Gat Commit"; }
-        }
-
         public ArrayList Execute()
         {
             if (!Completed)
