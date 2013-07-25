@@ -11,49 +11,49 @@ namespace ConsoleApplication1.Chapter_8.Tests
 
         /*Stage 2*/
 
-//        [Test]
-//        public void FailedRebaseShouldHaveMessages()
-//        {
-//            var correctFailedMessages = new ArrayList
-//                {
-//                    "Logging",
-//                    "Saving",
-//                    "Running Gat Rebase",
-//                    "Action Failed",
-//                    "Rolling Back",
-//                    "State Restored"
-//                };
-//            var RebaseAction = new GatRebaseToVersionControl("", "First Rebase 001");
-//            ArrayList executionMessages = RebaseAction.Execute();
-//
-//            Assert.IsTrue(haveSameStringsAtSameIndex(correctFailedMessages, executionMessages));
-//        }
-//
-//        [Test]
-//        public void FailedRebaseShouldReturnArrayWithLength()
-//        {
-//            var RebaseAction = new GatRebaseToVersionControl("", "First Rebase 001");
-//            ArrayList executionActions = RebaseAction.Execute();
-//
-//            Assert.IsTrue(executionActions.Count == 6);
-//        }
-//
-//        [Test]
-//        public void RebaseShouldFailIfNotRun()
-//        {
-//            var RebaseAction = new GatRebaseToVersionControl("20130924", "First Rebase 001");
-//
-//            Assert.IsFalse(RebaseAction.Completed);
-//        }
-//
-//        [Test]
-//        public void RebaseShouldPassIfExecutedWithMessageAndDate()
-//        {
-//            var RebaseAction = new GatRebaseToVersionControl("20130924", "First Rebase 001");
-//            RebaseAction.Execute();
-//
-//            Assert.IsTrue(RebaseAction.Completed);
-//        }
+        [Test]
+        public void FailedRebaseShouldHaveMessages()
+        {
+            var correctFailedMessages = new ArrayList
+                {
+                    "Logging",
+                    "Saving",
+                    "Running Gat Rebase",
+                    "Action Failed",
+                    "Rolling Back",
+                    "State Restored"
+                };
+            var RebaseAction = new GatRebaseToVersionControl("", "First Rebase 001");
+            ArrayList executionMessages = RebaseAction.Execute();
+
+            Assert.IsTrue(haveSameStringsAtSameIndex(correctFailedMessages, executionMessages));
+        }
+
+        [Test]
+        public void FailedRebaseShouldReturnArrayWithLength()
+        {
+            var RebaseAction = new GatRebaseToVersionControl("", "First Rebase 001");
+            ArrayList executionActions = RebaseAction.Execute();
+
+            Assert.IsTrue(executionActions.Count == 6);
+        }
+
+        [Test]
+        public void RebaseShouldFailIfNotRun()
+        {
+            var RebaseAction = new GatRebaseToVersionControl("20130924", "First Rebase 001");
+
+            Assert.IsFalse(RebaseAction.Completed);
+        }
+
+        [Test]
+        public void RebaseShouldPassIfExecutedWithMessageAndDate()
+        {
+            var RebaseAction = new GatRebaseToVersionControl("20130924", "First Rebase 001");
+            RebaseAction.Execute();
+
+            Assert.IsTrue(RebaseAction.Completed);
+        }
 
 
         /*Stage 3*/
