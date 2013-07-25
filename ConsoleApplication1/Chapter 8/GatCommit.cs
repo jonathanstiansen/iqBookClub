@@ -26,7 +26,7 @@ namespace ConsoleApplication1.Chapter_9.Tests
             LogAction();
             BackupState();
             RunAction();
-            if (FailedToComplete())
+            if (!CompletesSuccessfully())
             {
                 Rollback();
             } else {
@@ -55,7 +55,7 @@ namespace ConsoleApplication1.Chapter_9.Tests
             Console.WriteLine("Rolling back: " + ActionName);
         }
 
-        private bool FailedToComplete()
+        private bool CompletesSuccessfully()
         {
             return _date.Length == 8 && _message.Length > 0;
         }

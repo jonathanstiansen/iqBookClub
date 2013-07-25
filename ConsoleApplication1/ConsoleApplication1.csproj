@@ -49,10 +49,13 @@
     <Compile Include="Action.cs" />
     <Compile Include="Chapter 6 and 7\Adapters\GatToSVMAdapter.cs" />
     <Compile Include="BastardSvnnCommand.cs" />
-    <Compile Include="Chapter 8\GatCommitToVersionControl.cs" />
-    <Compile Include="Chapter 8\GatRebaseToVersionControl.cs" />
+    <Compile Include="Chapter 8\GatCommit.cs" />
+    <Compile Include="Chapter 8\GatRebase.cs" />
     <Compile Include="Chapter 8\IVersionControlAction.cs" />
-    <Compile Include="Chapter 8\Tests\ActionsFixture.cs" />
+    <Compile Include="Chapter 8\Tests\Stage2TestActionUsages.cs" />
+    <Compile Include="Chapter 8\Tests\Stage1TestActions.cs" />
+    <Compile Include="Chapter 8\GatPull.cs" />
+    <Compile Include="Chapter 8\GatPush.cs" />
     <Compile Include="Chapter 8\VersionControl.cs" />
     <Compile Include="Chapter 9\WorkingFile.cs" />
     <Compile Include="Main\MySuperCoolVersionControl.cs" />
