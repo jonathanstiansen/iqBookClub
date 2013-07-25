@@ -52,8 +52,9 @@
     <Compile Include="Chapter 8\GatCommit.cs" />
     <Compile Include="Chapter 8\GatRebase.cs" />
     <Compile Include="Chapter 8\IVersionControlAction.cs" />
-    <Compile Include="Chapter 8\Tests\Stage2TestActionUsages.cs" />
-    <Compile Include="Chapter 8\Tests\Stage1TestActions.cs" />
+    <Compile Include="Chapter 8\Tests\GatRebaseFixture.cs" />
+    <Compile Include="Chapter 8\Tests\GatCommitFixture.cs" />
+    <Compile Include="Chapter 8\Tests\VersionControlActionBaseFixture.cs" />
     <Compile Include="Chapter 8\VersionControl.cs" />
     <Compile Include="Chapter 9\WorkingFile.cs" />
     <Compile Include="Main\MySuperCoolVersionControl.cs" />
