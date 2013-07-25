@@ -57,12 +57,11 @@
     <Compile Include="Chapter 8\Tests\GatCommitFixture.cs" />
     <Compile Include="Chapter 8\Tests\VersionControlActionBaseFixture.cs" />
     <Compile Include="Chapter 9\MasterVersionControl.cs" />
-    <Compile Include="Chapter 9\Tests\GatVersionControlLogs.cs" />
-    <Compile Include="Chapter 9\Tests\IVersionControlLog.cs" />
+    <Compile Include="Chapter 9\GatVersionControlLogs.cs" />
+    <Compile Include="Chapter 9\IVersionControlLog.cs" />
     <Compile Include="Chapter 9\Tests\MasterVersionControlFixture.cs" />
-    <Compile Include="Chapter 9\Tests\SvmLogginSystem.cs" />
-    <Compile Include="Chapter 9\Tests\SvmVersionControlAction.cs" />
-    <Compile Include="Chapter 9\WorkingFile.cs" />
+    <Compile Include="Chapter 9\SvmLogginSystem.cs" />
+    <Compile Include="Chapter 9\SvmVersionControlAction.cs" />
     <Compile Include="Main\MySuperCoolVersionControl.cs" />
     <Compile Include="Chapter 6 and 7\Other Command Types\Gat\GatCommand.cs" />
     <Compile Include="IAction.cs" />
